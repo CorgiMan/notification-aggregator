@@ -1,0 +1,11 @@
+TODO
+- notion: open tab with notion when token expired
+- notion: find space id from v3 api
+
+- store exmaple raw data so that LLM can use it to understand the data
+
+filters
+- for to:me
+- code review from me
+- @me
+- ...

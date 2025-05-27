@@ -1,0 +1,43 @@
+{
+    "folders": [
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "deno.enable": true,
+        "deno.config": "./deno.json",
+        "deno.lint": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.rulers": [140],
+        "editor.wordWrapColumn": 140,
+        "prettier.printWidth": 140,
+        "[javascript]": {
+            "editor.defaultFormatter": "denoland.vscode-deno"
+        },
+        "[html]": {
+            "editor.defaultFormatter": "denoland.vscode-deno"
+            // "editor.defaultFormatter": "vscode.html-language-features",
+        },
+        "html.format.wrapLineLength": 140,
+        "files.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true
+        },
+        "files.associations": {
+            "*.js": "javascript"
+        },
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true
+        },
+        "vue.server.hybridMode": false
+    },
+    "extensions": {
+        "recommendations": ["denoland.vscode-deno"]
+    }
+}

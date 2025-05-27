@@ -1,0 +1,13 @@
+{
+  "fmt": {
+    "lineWidth": 140,
+    "indentWidth": 4,
+    "singleQuote": false,
+    "proseWrap": "preserve"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+} 

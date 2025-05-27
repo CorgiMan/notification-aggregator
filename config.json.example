@@ -1,0 +1,43 @@
+{
+    "integrations": {
+        "gmail": {
+            "enabled": true,
+            "credentials": {
+                "installed": {
+                    "client_id": "XXXXXXXXXXXXX",
+                    "project_id": "notification-aggregator-461107",
+                    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                    "token_uri": "https://oauth2.googleapis.com/token",
+                    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+                    "client_secret": "XXXXXXXXXXXXX",
+                    "redirect_uris": [
+                        "http://localhost"
+                    ]
+                }
+            },
+            "code": "XXXXXXXXXXXXX",
+            "token": {
+                "access_token": "ya29.example-access-token",
+                "refresh_token": "1//example-refresh-token",
+                "scope": "https://www.googleapis.com/auth/gmail.readonly",
+                "token_type": "Bearer",
+                "expiry_date": 1234567890000
+            }
+        },
+        "github": {
+            "enabled": true,
+            "token": "XXXXXXXXXXXXXX"
+        },
+        "slack": {
+            "enabled": false,
+            "token": "XXXXXXXXXXXXXX"
+        },
+        "notion": {
+            "enabled": true,
+            "token": "XXXXXXXXXXXXXX"
+        },
+        "mock": {
+            "enabled": false
+        }
+    }
+}

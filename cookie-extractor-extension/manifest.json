@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Notion Cookie Extractor",
+  "version": "1.0",
+  "permissions": [
+    "cookies",
+    "https://www.notion.so/"
+  ],
+  "host_permissions": [
+    "https://www.notion.so/",
+    "http://localhost:3000/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.notion.so/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
